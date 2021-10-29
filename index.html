@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsiveness.css" />
     <title>Demo</title>
   </head>
   <body>
@@ -85,21 +86,45 @@
 
           <div class="card">
             <div class="ratings">
-              <img src="./images/four-stars.png" alt="Four star rating" />
-              <span>4.0</span>
+              <img src="./images/four.five-stars.png" alt="Four star rating" />
+              <span>4.5</span>
             </div>
             <p>
               Great place to work with the good work culture and people skills.
             </p>
             <div class="issue">
-              <span>sexual assault</span>
+              <span>nepotism</span>
+              <span>
+                <img src="./images/bi_briefcase.png" alt="Briefcase icon" />
+                Apple
+              </span>
+            </div>
+            <div class="profile">
+              <img src="./images/avatar-2.png" alt="profile photo" />
+              <div class="profile-details">
+                <span class="profile-details_name">Anonymous</span>
+                <span class="profile-details_job">business Analysis</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="ratings">
+              <img src="./images/two-stars.png" alt="Four star rating" />
+              <span>2.0</span>
+            </div>
+            <p>
+              Great place to work with the good work culture and people skills.
+            </p>
+            <div class="issue">
+              <span>racism</span>
               <span>
                 <img src="./images/bi_briefcase.png" alt="Briefcase icon" />
                 Google
               </span>
             </div>
             <div class="profile">
-              <img src="./images/avatar-1.png" alt="profile photo" />
+              <img src="./images/avatar-3.png" alt="profile photo" />
               <div class="profile-details">
                 <span class="profile-details_name">Anonymous</span>
                 <span class="profile-details_job">business Analysis</span>
@@ -119,11 +144,11 @@
               <span>sexual assault</span>
               <span>
                 <img src="./images/bi_briefcase.png" alt="Briefcase icon" />
-                Google
+                Starbuck
               </span>
             </div>
             <div class="profile">
-              <img src="./images/avatar-1.png" alt="profile photo" />
+              <img src="./images/avatar-4.png" alt="profile photo" />
               <div class="profile-details">
                 <span class="profile-details_name">Anonymous</span>
                 <span class="profile-details_job">business Analysis</span>
@@ -140,14 +165,14 @@
               Great place to work with the good work culture and people skills.
             </p>
             <div class="issue">
-              <span>sexual assault</span>
+              <span>racism</span>
               <span>
                 <img src="./images/bi_briefcase.png" alt="Briefcase icon" />
-                Google
+                Facebook
               </span>
             </div>
             <div class="profile">
-              <img src="./images/avatar-1.png" alt="profile photo" />
+              <img src="./images/avatar-5.png" alt="profile photo" />
               <div class="profile-details">
                 <span class="profile-details_name">Anonymous</span>
                 <span class="profile-details_job">business Analysis</span>
@@ -157,45 +182,21 @@
 
           <div class="card">
             <div class="ratings">
-              <img src="./images/four-stars.png" alt="Four star rating" />
-              <span>4.0</span>
+              <img src="./images/two-stars.png" alt="Four star rating" />
+              <span>2.0</span>
             </div>
             <p>
               Great place to work with the good work culture and people skills.
             </p>
             <div class="issue">
-              <span>sexual assault</span>
+              <span>racism</span>
               <span>
                 <img src="./images/bi_briefcase.png" alt="Briefcase icon" />
                 Google
               </span>
             </div>
             <div class="profile">
-              <img src="./images/avatar-1.png" alt="profile photo" />
-              <div class="profile-details">
-                <span class="profile-details_name">Anonymous</span>
-                <span class="profile-details_job">business Analysis</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="ratings">
-              <img src="./images/four-stars.png" alt="Four star rating" />
-              <span>4.0</span>
-            </div>
-            <p>
-              Great place to work with the good work culture and people skills.
-            </p>
-            <div class="issue">
-              <span>sexual assault</span>
-              <span>
-                <img src="./images/bi_briefcase.png" alt="Briefcase icon" />
-                Google
-              </span>
-            </div>
-            <div class="profile">
-              <img src="./images/avatar-1.png" alt="profile photo" />
+              <img src="./images/avatar-6.png" alt="profile photo" />
               <div class="profile-details">
                 <span class="profile-details_name">Anonymous</span>
                 <span class="profile-details_job">business Analysis</span>
@@ -264,57 +265,63 @@
     </main>
 
     <footer>
-      <div id="footer-left">
-        <p>
-          This platform for minority groups to express their opinions on
-          employment, workplace experiences and rate employers.
-        </p>
-        <div id="social-icons">
-          <a href="#" class="icons">
-            <img src="./images/facebook-icon.svg" alt="" />
-          </a>
-          <a href="#" class="icons">
-            <img src="./images/twitter-icon.svg" alt="" />
-          </a>
-          <a href="#" class="icons">
-            <img src="./images/linkedIn-icon.svg" alt="" />
-          </a>
+      <div id="f-wrapper">
+        <div id="footer-left">
+          <p>
+            This platform for minority groups to express their opinions on
+            employment, workplace experiences and rate employers.
+          </p>
+          <div id="social-icons">
+            <a href="#" class="icons">
+              <img src="./images/facebook-icon.svg" alt="" />
+            </a>
+            <a href="#" class="icons">
+              <img src="./images/twitter-icon.svg" alt="" />
+            </a>
+            <a href="#" class="icons">
+              <img src="./images/linkedIn-icon.svg" alt="" />
+            </a>
+          </div>
+        </div>
+
+        <div id="footer-right">
+          <div id="company">
+            <nav class="nav">
+              <h3 class="footer-nav-header">Company</h3>
+              <a href="#">About Us</a>
+              <a href="#">Contact Us</a>
+              <a href="#">Terms of Use</a>
+              <a href="#">Privacy Policy</a>
+            </nav>
+          </div>
+
+          <div id="features">
+            <nav class="nav">
+              <h3 class="footer-nav-header">Features</h3>
+              <a href="#">Timeline</a>
+              <a href="#">Peer Revie</a>
+              <a href="#">Create Account</a>
+              <a href="#">Sign In</a>
+            </nav>
+          </div>
+
+          <div id="contact">
+            <ul>
+              <h3>Contact Us</h3>
+
+              <li>inquiry@thaapp.com</li>
+              <li>1-800-200-300</li>
+              <li>
+                54 Curragh birin,<br />
+                Castletroy, Limerick, <br />Ireland
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
 
-      <div id="footer-right">
-        <div id="company">
-          <nav class="nav">
-            <h3 class="footer-nav-header">Company</h3>
-            <a href="#">About Us</a>
-            <a href="#">Contact Us</a>
-            <a href="#">Terms of Use</a>
-            <a href="#">Privacy Policy</a>
-          </nav>
-        </div>
-
-        <div id="features">
-          <nav class="nav">
-            <h3 class="footer-nav-header">Features</h3>
-            <a href="#">Timeline</a>
-            <a href="#">Peer Revie</a>
-            <a href="#">Create Account/a>
-            <a href="#">Sign In</a>
-          </nav>
-        </div>
-
-        <div id="contact">
-          <ul>
-            <h3>Contact Us</h3>
-
-            <li>inquiry@thaapp.com</li>   
-            <li>1-800-200-300</li>
-            <li>
-              54 Curragh birin,<br>
-              Castletroy,
-              Limerick, <br>Ireland</li>
-          </ul>
-        </div>
+      <div id="copyright">
+        <span>&copy; Copyright 2021</span>
       </div>
     </footer>
   </body>

@@ -1,0 +1,146 @@
+@media screen and (max-width: 1000px) {
+  #header-nav {
+    gap: 2rem;
+    width: 50%;
+    /* background: #000; */
+  }
+
+  .intro > .wrapper {
+    width: 80%;
+  }
+  #search-input input {
+    margin: 1rem 0;
+  }
+  #search-input .btn {
+    top: 20%;
+  }
+
+  #quote {
+    margin-top: 1rem;
+  }
+
+  /* review */
+  .reviews {
+    margin-bottom: 7rem;
+  }
+  #review-heading {
+    margin-top: 3rem;
+  }
+  #cards-wrapper {
+    width: 80%;
+  }
+  .card {
+    width: 45%;
+  }
+
+  .adverts-wrapper {
+    justify-content: space-between;
+    /* gap: 2rem; */
+  }
+  .adverts {
+    width: 28%;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #header-nav {
+    width: 80%;
+  }
+  .container {
+    height: 500px;
+  }
+  .intro {
+    width: 100%;
+    height: 100%;
+    background: url("./images/hero.png") rgba(0, 0, 0, 0.2) no-repeat center;
+    background-size: cover;
+    background-blend-mode: overlay;
+    margin: auto;
+    justify-content: space-around;
+    padding: 1rem 0;
+  }
+  #intro-content {
+    margin: 0;
+  }
+  .intro p {
+    color: #000;
+  }
+  .image {
+    display: none;
+  }
+  #quote {
+    width: 80%;
+    margin: 2rem auto;
+  }
+
+  #review-heading {
+    width: 80%;
+    margin: 3rem auto;
+  }
+
+  .card {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  #news-content {
+    width: 80%;
+    margin: 3rem auto;
+    padding: 0;
+    background: url("./images/mail.png") no-repeat center;
+    /* background-size: cover; */
+  }
+  #mail-img {
+    display: none;
+  }
+
+  .adverts {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .sign-up {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  header {
+    padding: 1rem;
+  }
+  #header-nav {
+    width: 100%;
+    gap: 1rem;
+    /* margin-right: auto; */
+  }
+  #intro-content h1 {
+    font-size: 2rem;
+  }
+
+  .card,
+  .adverts {
+    width: 100%;
+  }
+
+  .sign-up {
+    padding: 3rem 0;
+    margin: auto;
+    gap: 1.2rem;
+    text-align: center;
+  }
+  .sign-up p {
+    width: 100%;
+    font-size: 1.2rem;
+  }
+  .sign-up,
+  #f-wrapper {
+    flex-direction: column;
+  }
+  #footer-left,
+  #footer-right {
+    width: 100%;
+  }
+  #footer-right {
+    gap: 2rem;
+  }
+}
